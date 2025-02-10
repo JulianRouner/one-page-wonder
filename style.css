@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
+@keyframes hideous {
+    0% {background-color: red;}
+    10% {background-color: aqua;}
+    20% {background-color: magenta}
+    30% {background-color: greenyellow;}
+    40% {background-color: slateblue;}
+    50% {background-color: yellow;}
+    60% {background-color: blueviolet;}
+    70% {background-color: orangered;}
+    80% {background-color: lightpink;}
+    90% {background-color: blue;}
+    100% {background-color: red;}
+}
+
 body {
     background: aquamarine;
+    animation-name: hideous;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 p {
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
